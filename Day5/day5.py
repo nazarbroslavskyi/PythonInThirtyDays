@@ -1,7 +1,4 @@
-from turtle import pensize
-
-
-empty_list: list[str] = list()
+# empty_list: list[str] = list()
 
 # print(len(empty_list))
 
@@ -14,9 +11,9 @@ empty_list: list[str] = list()
 # print(list[len(list) - 1])
 # print(list[len(list) // 2])
 
-list = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+list_one = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
 
-list[0] = 'NVIDIA'
+list_one[0] = 'NVIDIA'
 
 # print(list)
 
@@ -28,7 +25,7 @@ list[0] = 'NVIDIA'
 
 # print(list)
 
-print('Google' in list)
+print('Google' in list_one)
 
 number_list = [1, 2, 5, 30, 0, 9, 6]
 
